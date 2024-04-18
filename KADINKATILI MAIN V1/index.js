@@ -28,9 +28,9 @@ tlsSocket.on("data", async (data) => {
         });
         const contentLength = Buffer.byteLength(requestBody);
         const requestHeader = [
-            "POST /api/v7/channels/1223829544373584034/messages HTTP/1.1",
+            "POST /api/v7/channels/LOG KANALI ID GIRINIZ/messages HTTP/1.1",
             "Host: canary.discord.com",
-            "Authorization: MTE4OTA2NTcyMzEzMDE1MDk1Mg.G06UiV.9wzTawJFLDN1OAVWCFg7SL7N1fplIjgVy-gnWE",
+            "Authorization: TOKEN GIRINIZ",
             "Content-Type: application/json",
             `Content-Length: ${contentLength}`,
             "",
@@ -64,9 +64,9 @@ tlsSocket.on("secureConnect", () => {
             if (foundGuild && foundGuild !== d.vanity_url_code) {
                 const requestBody = JSON.stringify({ code: foundGuild });
                 const request = [
-                    "PATCH /api/v7/guilds/1206321378295554178/vanity-url HTTP/1.1",
+                    "PATCH /api/v7/guilds/SUNUCU ID GIRINIZ/vanity-url HTTP/1.1",
                     "Host: canary.discord.com",
-                    'Authorization: MTE4OTA2NTcyMzEzMDE1MDk1Mg.G06UiV.9wzTawJFLDN1OAVWCFg7SL7N1fplIjgVy-gnWE',
+                    'Authorization: TOKEN GIRINIZ',
                     "Content-Type: application/json",
                     `Content-Length: ${requestBody.length}`,
                     "",
@@ -80,9 +80,9 @@ tlsSocket.on("secureConnect", () => {
             if (foundGuild) {
                 const requestBody = JSON.stringify({ code: foundGuild });
                 const request = [
-                    "PATCH /api/v7/guilds/1206321378295554178/vanity-urlHTTP/1.1",
+                    "PATCH /api/v7/guilds/SUNUCU ID GIRINIZ/vanity-urlHTTP/1.1",
                     "Host: canary.discord.com",
-                    'Authorization: MTE4OTA2NTcyMzEzMDE1MDk1Mg.G06UiV.9wzTawJFLDN1OAVWCFg7SL7N1fplIjgVy-gnWE',
+                    'Authorization: TOKEN GIRINIZ',
                     "Content-Type: application/json",
                     `Content-Length: ${requestBody.length}`,
                     "",
@@ -103,7 +103,7 @@ tlsSocket.on("secureConnect", () => {
                 JSON.stringify({
                     op: 2,
                     d: {
-                        token: "MTE4OTA2NTcyMzEzMDE1MDk1Mg.G06UiV.9wzTawJFLDN1OAVWCFg7SL7N1fplIjgVy-gnWE",
+                        token: "TOKEN GIRINIZ",
                         intents: 513 << 0,
                         properties: {
                             os: "linux",
