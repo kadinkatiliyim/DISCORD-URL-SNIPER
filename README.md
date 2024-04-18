@@ -8,3 +8,6 @@ Log Kanalı ID yazan yere kanal ID'nizi giriniz, toplamda 1 farklı yere girmeni
 
 
 # Herhangi bir sorunuz veya yardıma ihtiyacınız varsa çekinmeden bana discord üzerinden ulaşabilirsiniz. @kadinkatili
+
+
+50ms-69ms arasinda olan mainime sahip olmak icin 50 star bekliyorum.
