@@ -1,4 +1,4 @@
-# index.js Dosyasını Doldur ve baslat.bat Dosyasını Aç
+# index.js Dosyasını Doldur ve bat.bat Dosyasını Aç
 
 Token Giriniz yazan yerlere tokeninizi giriniz, toplamda 4 farklı yere girmeniz gerekecek.
 
